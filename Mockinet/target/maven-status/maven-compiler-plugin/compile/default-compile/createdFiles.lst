@@ -1,6 +1,7 @@
+org\example\IUserRepository.class
+org\example\User.class
 org\example\UserService.class
 org\example\IEmailService.class
 org\example\UserRepository.class
+org\example\StringCompressor.class
 org\example\EmailService.class
-org\example\IUserRepository.class
-org\example\User.class

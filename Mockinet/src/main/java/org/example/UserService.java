@@ -10,12 +10,14 @@ public class UserService {
   }
 
   public void registerUser(User user) {
+    // 0. Check that user does not exist
+    if (userRepository.checkIfUserExist(user.email())) {
+      throw new IllegalArgumentException("User already exists");
+    }
     // 1.Store user in the database
     userRepository.saveUser(user);
-  }
 
-  public void sendConfirmationEmail(String userEmail) {
     // 2. Send confirmation email to user
-    emailService.sendConfirmationEmail(userEmail);
+    emailService.sendConfirmationEmail(user.email());
   }
 }
