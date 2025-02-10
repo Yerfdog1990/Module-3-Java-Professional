@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5533ccf-d9c1-4de9-be63-44e298ba740e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SimpleLoggingFacade/.idea/SimpleLoggingFacade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mockinet/mocking-live-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mockinet/mocking-live-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hippodrome" beforeDir="false" afterPath="$PROJECT_DIR$/../../hippodrome" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hippodrome/src/main/Reources/Log4J2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../hippodrome/src/main/Reources/Log4J2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hippodrome/src/test/java/HippodromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../hippodrome/src/test/java/HippodromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,24 +21,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Yerfdog1990"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yerfdog1990&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Yerfdog1990/Module-3-Java-Professional.git",
-    "accountId": "e280f5f7-ee75-43b0-8977-923e4ac43f13"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Yerfdog1990/Module-3-Java-Professional.git&quot;,
+    &quot;accountId&quot;: &quot;e280f5f7-ee75-43b0-8977-923e4ac43f13&quot;
   }
-}]]></component>
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2sVDz7weUVu59ZyscW3jAwC9pNX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,10 +48,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gouma/IdeaProjects/Module3Courses/Module-3-Java-Professional/Logging/log4Jdemo",
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
