@@ -44,42 +44,38 @@ public class HorseTest {
 
   @Test
   @DisplayName("getName method")
-  public void getNameMethod() throws NoSuchFieldException, IllegalAccessException {
+  public void getNameMethod() {
     String horseName = "Houdini";
-    Horse horse = new Horse("Houdini", 17, 20);
-    Field nameField = Horse.class.getDeclaredField("name");
-    nameField.setAccessible(true);
-    assertEquals(horseName, nameField.get(horse));
+    Horse horse = new Horse(horseName, 17, 20); // Make sure we always use the same name value
+    // No need to use reflection here; we can obtain the name directly using the getter method
+    assertEquals(horseName, horse.getName());
   }
 
   @Test
   @DisplayName("getSpeed method")
-  public void getSpeedMethod() throws NoSuchFieldException, IllegalAccessException {
+  public void getSpeedMethod() {
     double horseSpeed = 17;
-    Horse horse = new Horse("Houdini", 17, 20);
-    Field speedFiled = Horse.class.getDeclaredField("speed");
-    speedFiled.setAccessible(true);
-    assertEquals(horseSpeed, speedFiled.get(horse));
+    Horse horse = new Horse("Houdini", horseSpeed, 20); // Make sure we always use the same speed value
+    // Same here
+    assertEquals(horseSpeed, horse.getSpeed());
   }
 
   @Test
   @DisplayName("getNonZeroDistance method")
-  public void getNonZeroDistanceMethod() throws NoSuchFieldException, IllegalAccessException {
+  public void getNonZeroDistanceMethod() {
     double horseDistance = 20;
-    Horse horse = new Horse("Houdini", 17, 20);
-    Field speedField = Horse.class.getDeclaredField("distance");
-    speedField.setAccessible(true);
-    assertEquals(horseDistance, speedField.get(horse));
+    Horse horse = new Horse("Houdini", 17, horseDistance); // Make sure we always use the same distance value
+    // Same here
+    assertEquals(horseDistance, horse.getDistance());
   }
 
   @Test
   @DisplayName("getZeroDistance method")
-  public void getZeroDistanceMethod() throws NoSuchFieldException, IllegalAccessException {
+  public void getZeroDistanceMethod() {
     double horseDistance = 0;
     Horse horse = new Horse("Houdini", 17);
-    Field speedField = Horse.class.getDeclaredField("distance");
-    speedField.setAccessible(true);
-    assertEquals(horseDistance, speedField.get(horse));
+    // Same
+    assertEquals(horseDistance, horse.getDistance());
   }
 
   @Test

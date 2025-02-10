@@ -29,6 +29,9 @@ public class Horse {
     this.name = name;
     this.speed = speed;
     this.distance = distance;
+
+    // MENTOR -> Add missing log as per assignment
+    logger.debug("Created a horse named [{}] with speed [{}]", name, speed);
   }
 
   public Horse(String name, double speed) {

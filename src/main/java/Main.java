@@ -16,7 +16,7 @@ public class Main {
             new Horse("Yoda", 2.8),
             new Horse("Pegasus", 2.9),
             new Horse("Shelby", 3));
-    Hippodrome hippodrome = new Hippodrome(null);
+    Hippodrome hippodrome = new Hippodrome(horses); // List of horses need to be passed in
     logger.info("Start of the race. Number of participants: {}", horses.size());
 
     for (int i = 0; i < 5; i++) {
